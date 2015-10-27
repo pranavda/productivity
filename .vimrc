@@ -1,3 +1,4 @@
+"Edited from the original at: https://amix.dk/vim/vimrc.html
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -19,6 +20,8 @@ let g:mapleader = "\\"
 " Fast saving
 nmap <leader>w :w!<cr>
 
+" Hot Exit
+nmap <leader>q :q<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -39,7 +42,7 @@ set ruler
 "set cmdheight=2
 
 " A buffer becomes hidden when it is abandoned
-set hid
+"set hid
 
 " Configure backspace so it acts as it should act
 "set backspace=eol,start,indent
@@ -199,7 +202,7 @@ map <leader>s? z=
 "noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
 " Quickly open a buffer for scripbble
-map <leader>q :e ~/buffer<cr>
+map <leader>n :e ~/buffer<cr>
 
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
